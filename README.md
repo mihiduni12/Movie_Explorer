@@ -58,7 +58,7 @@ src/
 2. Add the environment variable `REACT_APP_TMDB_API_KEY`.
 3. Deploy. `vercel.json` makes React Router deep links survive a refresh. (Netlify works the same way; `public/_redirects` is included.)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel)](https://movie-explorer-ten-liard.vercel.app)
+**Live demo:** [movie-explorer-ten-liard.vercel.app](https://movie-explorer-ten-liard.vercel.app)
 
 ## Notes
 - Create React App bundles the API key into the client. Never commit `.env`.
