@@ -4,7 +4,7 @@ import { useMovies } from '../context/MovieContext';
 const thisYear = new Date().getFullYear();
 const years = Array.from({ length: 60 }, (_, i) => thisYear - i);
 
-/** Bonus: filter by genre, release year and minimum rating. */
+
 export default function FilterBar() {
   const { filters, setFilters, genres } = useMovies();
   const set = (key) => (e) => setFilters((f) => ({ ...f, [key]: e.target.value }));

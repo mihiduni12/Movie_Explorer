@@ -1,7 +1,7 @@
 import { Grid } from '@mui/material';
 import MovieCard from './MovieCard';
 
-/** Mobile-first grid: 2 columns on phones up to 6 on large screens. */
+
 export default function MovieGrid({ movies }) {
   return (
     <Grid container spacing={2}>
